@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div style="margin: 2rem 0;">
+    <div style="text-align: center; margin-bottom: 3rem;">
+        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">The Learning <span style="color: var(--primary);">Hub</span></h1>
+        <p style="color: var(--gray); font-size: 1.1rem;">Watch, learn, and master money through hand-picked expert content.</p>
+    </div>
+
+    <!-- Free Content Section -->
+    <h2 style="margin-bottom: 1.5rem; border-bottom: 2px solid var(--gray-light); padding-bottom: 0.5rem;">Free Masterclasses</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
+        <!-- Video 1 -->
+        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube.com/embed/ZqM634oGq8I" title="Basic Finance" allowfullscreen></iframe>
+            </div>
+            <div style="padding: 1.5rem;">
+                <span style="background: var(--accent); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Basics</span>
+                <h3 style="margin: 0.5rem 0;">Investing for Beginners</h3>
+                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">Learn the fundamental rules of investing your first salary.</p>
+            </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube.com/embed/HQzoZfc3GwQ" title="Credit Scores" allowfullscreen></iframe>
+            </div>
+            <div style="padding: 1.5rem;">
+                <span style="background: var(--primary); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Credit</span>
+                <h3 style="margin: 0.5rem 0;">Credit Cards Explained</h3>
+                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">How to build an excellent credit score without falling into the debt trap.</p>
+            </div>
+        </div>
+        
+        <!-- Video 3 -->
+        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube.com/embed/9Bv_9o-xN_0" title="School of Hard Knocks" allowfullscreen></iframe>
+            </div>
+            <div style="padding: 1.5rem;">
+                <span style="background: var(--black); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Interviews</span>
+                <h3 style="margin: 0.5rem 0;">School of Hard Knocks</h3>
+                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">Real financial advice from millionaires interviewed on the street.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Premium Content Section -->
+    <h2 style="margin-bottom: 1.5rem; border-bottom: 2px solid var(--gray-light); padding-bottom: 0.5rem;">Premium Masterclasses</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem;">
+        
+        <!-- Premium Video 1 -->
+        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02); position: relative;">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; background: #e2e8f0; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                <!-- Blur effect simulator -->
+                <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800" style="position: absolute; width: 100%; height: 100%; object-fit: cover; filter: blur(8px); opacity: 0.6;">
+                
+                <div style="position: absolute; z-index: 10; text-align: center; background: rgba(255,255,255,0.9); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <div style="font-weight: 800; font-size: 1.25rem; margin-bottom: 0.5rem;">Premium – ₹199</div>
+                    <button class="btn-primary" onclick="alert('Payment Gateway Mock: Purchasing Premium Video 1')">Unlock Now</button>
+                </div>
+            </div>
+            <div style="padding: 1.5rem;">
+                <span style="background: #f59e0b; color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Advanced</span>
+                <h3 style="margin: 0.5rem 0;">Advanced Options Trading</h3>
+                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">Go beyond stocks and learn how to hedge portfolios with options.</p>
+            </div>
+        </div>
+        
+        <!-- Premium Video 2 -->
+        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02); position: relative;">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; background: #e2e8f0; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                <!-- Blur effect simulator -->
+                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800" style="position: absolute; width: 100%; height: 100%; object-fit: cover; filter: blur(8px); opacity: 0.6;">
+                
+                <div style="position: absolute; z-index: 10; text-align: center; background: rgba(255,255,255,0.9); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                    <div style="font-weight: 800; font-size: 1.25rem; margin-bottom: 0.5rem;">Premium – ₹199</div>
+                    <button class="btn-primary" onclick="alert('Payment Gateway Mock: Purchasing Premium Video 2')">Unlock Now</button>
+                </div>
+            </div>
+            <div style="padding: 1.5rem;">
+                <span style="background: #f59e0b; color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Real Estate</span>
+                <h3 style="margin: 0.5rem 0;">Real Estate Flipping 101</h3>
+                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">A comprehensive guide to analyzing property values and flipping.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinLearn - Gamified Financial Literacy</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <a href="{{ url_for('index') }}" class="nav-brand">Fin<span>Learn</span></a>
+        
+        <div class="nav-links">
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('learning_hub') }}">Learning Hub</a>
+            <a href="{{ url_for('quiz') }}">Quiz</a>
+            <a href="{{ url_for('spending_tracker') }}">Spending Tracker</a>
+            <a href="{{ url_for('leaderboard') }}">Leaderboard</a>
+        </div>
+
+        <div class="nav-actions">
+            {% if current_user.is_authenticated %}
+                <div class="streak-badge" title="Daily Streak">
+                    🔥 {{ current_user.streak }}
+                </div>
+                <a href="{{ url_for('profile') }}" class="nav-link">
+                    <span style="font-size: 1.5rem;">👤</span>
+                </a>
+            {% else %}
+                <a href="{{ url_for('login') }}" class="btn-primary" style="background: transparent; color: var(--primary); border: 1px solid var(--primary);">Login</a>
+                <a href="{{ url_for('signup') }}" class="btn-primary">Sign Up</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <!-- Main Content Block -->
+    <main class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert {{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Floating AI FAQ Assistant -->
+    <div class="ai-fab" id="chatbotToggle" onclick="toggleChatbot()">🤖</div>
+
+    <div id="chatbotWindow" style="display: none; position: fixed; bottom: 6rem; right: 2rem; width: 350px; background: white; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 10px 25px rgba(0,0,0,0.1); z-index: 999; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="background: var(--black); color: white; padding: 1rem; font-weight: bold; display: flex; justify-content: space-between;">
+            <div>Coach Penny (AI)</div>
+            <div style="cursor: pointer;" onclick="toggleChatbot()">✖</div>
+        </div>
+        <div id="chatHistory" style="flex: 1; padding: 1rem; overflow-y: auto; height: 300px; display: flex; flex-direction: column; gap: 0.75rem; background: var(--gray-light);">
+            <div style="background: white; padding: 0.75rem; border-radius: 8px; border: 1px solid #e2e8f0; font-size: 0.9rem;">
+                Hi! Need help with budgeting, saving, investing, or SIPs? Ask away!
+            </div>
+        </div>
+        <div style="padding: 0.75rem; border-top: 1px solid var(--gray-light); background: white; display: flex; gap: 0.5rem;">
+            <input type="text" id="chatInput" placeholder="Type a question..." style="flex: 1; padding: 0.5rem; border: 1px solid var(--gray); border-radius: 6px;" onkeydown="if(event.key==='Enter') sendChat()">
+            <button onclick="sendChat()" class="btn-primary" style="padding: 0.5rem 1rem;">Send</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('chatbotWindow').style.display = 'none';
+
+        function toggleChatbot() {
+            var w = document.getElementById('chatbotWindow');
+            w.style.display = w.style.display === 'none' ? 'flex' : 'none';
+        }
+
+        function sendChat() {
+            var inp = document.getElementById('chatInput');
+            var text = inp.value.trim();
+            if (!text) return;
+            
+            var hist = document.getElementById('chatHistory');
+            
+            // User msg
+            var uDiv = document.createElement('div');
+            uDiv.style.cssText = "align-self: flex-end; background: var(--primary); color: white; padding: 0.75rem; border-radius: 8px; font-size: 0.9rem; max-width: 80%;";
+            uDiv.innerText = text;
+            hist.appendChild(uDiv);
+            
+            inp.value = '';
+            hist.scrollTop = hist.scrollHeight;
+
+            // Mock Bot AI Response
+            setTimeout(() => {
+                var bDiv = document.createElement('div');
+                bDiv.style.cssText = "align-self: flex-start; background: white; padding: 0.75rem; border-radius: 8px; border: 1px solid #e2e8f0; font-size: 0.9rem; max-width: 80%;";
+                
+                let reply = "That's a great question! For long term wealth generation, always aim to save at least 20% of your income using the 50/30/20 rule.";
+                if (text.toLowerCase().includes('invest')) reply = "Investing early is key due to compound interest. Try our SIP calculator to forecast growth!";
+                if (text.toLowerCase().includes('credit')) reply = "Keep your credit utilization below 30% and always pay down the full balance monthly.";
+                
+                bDiv.innerText = reply;
+                hist.appendChild(bDiv);
+                hist.scrollTop = hist.scrollHeight;
+            }, 800);
+        }
+    </script>
+
+</body>
+</html>

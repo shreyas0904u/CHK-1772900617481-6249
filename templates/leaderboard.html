@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div style="max-width: 800px; margin: 2rem auto;">
+    
+    <div style="text-align: center; margin-bottom: 3rem;">
+        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">General <span style="color: var(--primary);">Leaderboard</span></h1>
+        <p style="color: var(--gray); font-size: 1.1rem;">Top quiz scorers. Complete quizzes to raise your ranking.</p>
+    </div>
+
+    <!-- Podium -->
+    {% if top_users|length >= 3 %}
+    <div style="display: flex; justify-content: center; align-items: flex-end; gap: 2rem; margin-bottom: 4rem; text-align: center;">
+        
+        <!-- #2 -->
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="width: 60px; height: 60px; background: #e2e8f0; border-radius: 50%; font-size: 1.5rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; border: 4px solid silver; box-shadow: 0 0 15px rgba(192,192,192,0.5);">🥈</div>
+            <div style="font-weight: bold;">@{{ top_users[1].username }}</div>
+            <div style="color: var(--primary); font-weight: 800; font-size: 1.25rem;">{{ top_users[1].points }} XP</div>
+            <div style="width: 100px; height: 120px; background: linear-gradient(to top, #f1f5f9, white); margin-top: 1rem; border-top-left-radius: 8px; border-top-right-radius: 8px; border: 1px solid var(--gray-light); border-bottom: none;">
+                <div style="font-size: 2rem; color: silver; font-weight: 900; margin-top: 1rem;">2</div>
+            </div>
+        </div>
+
+        <!-- #1 -->
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="font-size: 2.5rem; margin-bottom: -10px; z-index: 10;">👑</div>
+            <div style="width: 80px; height: 80px; background: #fef08a; border-radius: 50%; font-size: 2rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; border: 4px solid gold; box-shadow: 0 0 20px rgba(255,215,0,0.6);">🥇</div>
+            <div style="font-weight: bold; font-size: 1.2rem;">@{{ top_users[0].username }}</div>
+            <div style="color: var(--primary); font-weight: 800; font-size: 1.5rem;">{{ top_users[0].points }} XP</div>
+            <div style="width: 120px; height: 160px; background: linear-gradient(to top, #fefce8, white); margin-top: 1rem; border-top-left-radius: 8px; border-top-right-radius: 8px; border: 1px solid #fef08a; border-bottom: none;">
+                <div style="font-size: 2.5rem; color: gold; font-weight: 900; margin-top: 1.5rem;">1</div>
+            </div>
+        </div>
+
+        <!-- #3 -->
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="width: 60px; height: 60px; background: #fed7aa; border-radius: 50%; font-size: 1.5rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; border: 4px solid #cd7f32; box-shadow: 0 0 15px rgba(205,127,50,0.4);">🥉</div>
+            <div style="font-weight: bold;">@{{ top_users[2].username }}</div>
+            <div style="color: var(--primary); font-weight: 800; font-size: 1.25rem;">{{ top_users[2].points }} XP</div>
+            <div style="width: 100px; height: 90px; background: linear-gradient(to top, #fff7ed, white); margin-top: 1rem; border-top-left-radius: 8px; border-top-right-radius: 8px; border: 1px solid #ffedd5; border-bottom: none;">
+                <div style="font-size: 2rem; color: #cd7f32; font-weight: 900; margin-top: 0.5rem;">3</div>
+            </div>
+        </div>
+
+    </div>
+    {% endif %}
+
+    <!-- List -->
+    <div style="background: white; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02); overflow: hidden;">
+        
+        <div style="display: grid; grid-template-columns: 80px 1fr 150px; padding: 1rem 1.5rem; background: var(--gray-light); font-weight: bold; color: var(--gray); font-size: 0.9rem; text-transform: uppercase;">
+            <div>Rank</div>
+            <div>Player</div>
+            <div style="text-align: right;">Total XP</div>
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+            {% for u in top_users %}
+            <div style="display: grid; grid-template-columns: 80px 1fr 150px; padding: 1.25rem 1.5rem; border-bottom: 1px solid var(--gray-light); align-items: center; {% if current_user.is_authenticated and current_user.id == u.id %}background: #eff6ff;{% endif %}">
+                <div style="font-weight: bold; font-size: 1.25rem; color: var(--gray);">#{{ loop.index }}</div>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div style="width: 40px; height: 40px; background: var(--black); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                        {{ u.full_name[0] | upper }}
+                    </div>
+                    <div>
+                        <div style="font-weight: 600; font-size: 1.1rem;">{{ u.full_name }} {% if current_user.is_authenticated and current_user.id == u.id %}(You){% endif %}</div>
+                        <div style="color: var(--gray); font-size: 0.9rem;">@{{ u.username }}</div>
+                    </div>
+                </div>
+                <div style="text-align: right; font-weight: 800; color: var(--accent); font-size: 1.1rem;">
+                    {{ u.points }}
+                </div>
+            </div>
+            {% endfor %}
+            
+            {% if not top_users %}
+            <div style="padding: 3rem; text-align: center; color: var(--gray);">
+                No users have earned points yet. Be the first!
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

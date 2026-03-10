@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div style="margin: 2rem 0;">
+    <div style="text-align: center; margin-bottom: 3rem;">
+        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">Spending <span style="color: var(--primary);">Tracker</span></h1>
+        <p style="color: var(--gray); font-size: 1.1rem;">Track expenses and forecast your investments with SIP calculators.</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem;">
+        
+        <!-- SIP Calculator -->
+        <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+            <h2 style="margin: 0 0 1.5rem 0;">SIP Calculator</h2>
+            <p style="color: var(--gray); font-size: 0.95rem; margin-bottom: 1.5rem;">See how a small monthly investment cascades over time via compound interest.</p>
+            
+            <div class="form-group">
+                <label>Monthly Investment (₹)</label>
+                <input type="number" id="sipAmount" value="5000" class="form-input" oninput="calculateSip()">
+            </div>
+            <div class="form-group">
+                <label>Expected Return Rate (%)</label>
+                <input type="number" id="sipRate" value="12" class="form-input" oninput="calculateSip()">
+            </div>
+            <div class="form-group">
+                <label>Time Period (Years)</label>
+                <input type="number" id="sipYears" value="10" class="form-input" oninput="calculateSip()">
+            </div>
+
+            <div style="margin-top: 2rem; padding: 1.5rem; background: var(--gray-light); border-radius: 8px;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>Invested Amount:</span>
+                    <strong id="sipInvested">₹6,00,000</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>Est. Returns:</span>
+                    <strong id="sipReturns" style="color: var(--accent);">₹5,61,695</strong>
+                </div>
+                <hr style="border: 0; border-top: 1px solid var(--gray); margin: 1rem 0;">
+                <div style="display: flex; justify-content: space-between; font-size: 1.25rem;">
+                    <strong>Total Value:</strong>
+                    <strong id="sipTotal" style="color: var(--primary);">₹11,61,695</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- Expense Tracker -->
+        <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+            <h2 style="margin: 0 0 1.5rem 0;">Expense Tracker</h2>
+            <p style="color: var(--gray); font-size: 0.95rem; margin-bottom: 1.5rem;">Add everyday transactions to understand where your money goes.</p>
+
+            <form onsubmit="addExpense(event)" style="display: flex; gap: 1rem; align-items: flex-end; margin-bottom: 2rem;">
+                <div class="form-group" style="flex: 2; margin: 0;">
+                    <label>Category</label>
+                    <select id="expCategory" class="form-input" required>
+                        <option value="Food">Food</option>
+                        <option value="Transport">Transport</option>
+                        <option value="Shopping">Shopping</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Bills">Bills</option>
+                    </select>
+                </div>
+                <div class="form-group" style="flex: 1; margin: 0;">
+                    <label>Amount (₹)</label>
+                    <input type="number" id="expAmount" class="form-input" required>
+                </div>
+                <button type="submit" class="btn-primary" style="margin: 0; padding: 0.75rem 1rem;">Add</button>
+            </form>
+
+            <div id="expenseList" style="display: flex; flex-direction: column; gap: 0.75rem;">
+                <div style="display: flex; justify-content: space-between; padding: 1rem; border-radius: 6px; background: #f8fafc; border: 1px solid #e2e8f0;">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <span style="background: white; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; font-size: 1.25rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">🍔</span>
+                        <div>
+                            <div style="font-weight: 600;">Food</div>
+                            <div style="font-size: 0.8rem; color: var(--gray);">Today</div>
+                        </div>
+                    </div>
+                    <div style="font-weight: bold; font-size: 1.1rem; color: var(--danger); display: flex; align-items: center;">
+                        -₹450
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<script>
+function calculateSip() {
+    let P = parseFloat(document.getElementById('sipAmount').value);
+    let r = parseFloat(document.getElementById('sipRate').value) / 100 / 12;
+    let n = parseInt(document.getElementById('sipYears').value) * 12;
+    
+    if (isNaN(P) || isNaN(r) || isNaN(n)) return;
+
+    let M = P * ((Math.pow(1 + r, n) - 1) / r) * (1 + r);
+    let invested = P * n;
+    let returns = M - invested;
+
+    document.getElementById('sipInvested').innerText = "₹" + Math.round(invested).toLocaleString('en-IN');
+    document.getElementById('sipReturns').innerText = "₹" + Math.round(returns).toLocaleString('en-IN');
+    document.getElementById('sipTotal').innerText = "₹" + Math.round(M).toLocaleString('en-IN');
+}
+
+function addExpense(e) {
+    e.preventDefault();
+    const cat = document.getElementById('expCategory').value;
+    const amount = document.getElementById('expAmount').value;
+    
+    const emojis = {
+        'Food': '🍔', 'Transport': '🚌', 'Shopping': '🛍️', 
+        'Entertainment': '🎬', 'Bills': '📱'
+    };
+
+    const list = document.getElementById('expenseList');
+    const div = document.createElement('div');
+    div.style.cssText = "display: flex; justify-content: space-between; padding: 1rem; border-radius: 6px; background: #f8fafc; border: 1px solid #e2e8f0; animation: slideIn 0.3s ease-out;";
+    
+    div.innerHTML = `
+        <div style="display: flex; align-items: center; gap: 1rem;">
+            <span style="background: white; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; font-size: 1.25rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">${emojis[cat]}</span>
+            <div>
+                <div style="font-weight: 600;">${cat}</div>
+                <div style="font-size: 0.8rem; color: var(--gray);">Just now</div>
+            </div>
+        </div>
+        <div style="font-weight: bold; font-size: 1.1rem; color: var(--danger); display: flex; align-items: center;">
+            -₹${amount}
+        </div>
+    `;
+    
+    list.insertBefore(div, list.firstChild);
+    document.getElementById('expAmount').value = '';
+}
+</script>
+{% endblock %}

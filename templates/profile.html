@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; margin-top: 2rem;">
+    
+    <!-- Left Column: User Details -->
+    <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <div style="width: 80px; height: 80px; background: var(--primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 1rem auto;">
+                {{ user.full_name[0] | upper }}
+            </div>
+            <h2 style="margin: 0;">{{ user.full_name }}</h2>
+            <p style="color: var(--gray); margin: 0.25rem 0;">@{{ user.username }}</p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+            <p style="margin: 0.5rem 0;"><strong>Email:</strong> {{ user.email }}</p>
+            <p style="margin: 0.5rem 0;"><strong>Date of Birth:</strong> {{ user.dob }}</p>
+        </div>
+
+        <div style="background: var(--gray-light); padding: 1rem; border-radius: 8px; text-align: center; margin-bottom: 1.5rem;">
+            <h3 style="margin: 0 0 0.5rem 0; font-size: 1.1rem;">Current Daily Streak</h3>
+            <div style="font-size: 2rem; font-weight: 800; color: var(--accent);">
+                🔥 {{ user.streak }} Days
+            </div>
+        </div>
+
+        <a href="{{ url_for('logout') }}" class="btn-black" style="display: block; text-align: center; background: var(--danger);">Log Out</a>
+    </div>
+
+    <!-- Right Column: Goals & Certificates -->
+    <div style="display: flex; flex-direction: column; gap: 2rem;">
+        
+        <!-- Financial Goals -->
+        <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+            <h2 style="margin: 0 0 1.5rem 0;">My Financial Goals</h2>
+            
+            <form method="POST" action="{{ url_for('profile') }}" style="display: flex; gap: 1rem; align-items: flex-end; margin-bottom: 2rem;">
+                <div class="form-group" style="flex: 2; margin: 0;">
+                    <label>Goal Name</label>
+                    <input type="text" name="goal_name" class="form-input" placeholder="e.g. New Laptop" required>
+                </div>
+                <div class="form-group" style="flex: 1; margin: 0;">
+                    <label>Amount (₹)</label>
+                    <input type="number" name="amount_required" class="form-input" placeholder="50000" required>
+                </div>
+                <button type="submit" class="btn-primary" style="margin: 0;">Add Goal</button>
+            </form>
+
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+                {% if goals %}
+                    {% for goal in goals %}
+                    <div style="border: 1px solid var(--gray-light); padding: 1rem; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <h4 style="margin: 0 0 0.25rem 0;">{{ goal.name }}</h4>
+                            <span style="color: var(--gray); font-size: 0.9rem;">Target: ₹{{ goal.amount_required }}</span>
+                        </div>
+                        <div style="background: var(--gray-light); padding: 0.5rem 1rem; border-radius: 999px; font-weight: 600;">
+                            0% Saved
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <p style="color: var(--gray); text-align: center;">No goals set yet. Add one above!</p>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Certificates -->
+        <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+            <h2 style="margin: 0 0 1.5rem 0;">My Certificates & Badges</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; text-align: center;">
+                <div style="padding: 1.5rem 1rem; border: 1px solid var(--gray-light); border-radius: 8px; {% if 'Growing Up' in user.get_certificates() %}background: #e0f2fe; border-color: #38bdf8;{% else %}opacity: 0.5;{% endif %}">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🌱</div>
+                    <h4 style="margin: 0;">Growing Up</h4>
+                    <p style="font-size: 0.8rem; color: var(--gray); margin: 0.25rem 0 0 0;">1,000 Points</p>
+                </div>
+                
+                <div style="padding: 1.5rem 1rem; border: 1px solid var(--gray-light); border-radius: 8px; {% if 'Proficient' in user.get_certificates() %}background: #fef08a; border-color: #eab308;{% else %}opacity: 0.5;{% endif %}">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🚀</div>
+                    <h4 style="margin: 0;">Proficient</h4>
+                    <p style="font-size: 0.8rem; color: var(--gray); margin: 0.25rem 0 0 0;">5,000 Points</p>
+                </div>
+
+                <div style="padding: 1.5rem 1rem; border: 1px solid var(--gray-light); border-radius: 8px; {% if 'Master' in user.get_certificates() %}background: #fbcfe8; border-color: #ec4899;{% else %}opacity: 0.5;{% endif %}">
+                    <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">👑</div>
+                    <h4 style="margin: 0;">Master</h4>
+                    <p style="font-size: 0.8rem; color: var(--gray); margin: 0.25rem 0 0 0;">10,000 Points</p>
+                </div>
+            </div>
+            
+            <div style="margin-top: 1.5rem; font-size: 0.9rem; color: var(--gray); text-align: center;">
+                Rack up points by taking Quizzes to unlock your printable PDF certificates!
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

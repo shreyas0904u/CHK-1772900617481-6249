@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div style="text-align: center; margin: 4rem 0;">
+    <h1 style="font-size: 3rem; font-weight: 800; color: var(--black); margin-bottom: 1rem;">
+        Master Money. <span style="color: var(--primary);">Shape Your Future.</span>
+    </h1>
+    <p style="font-size: 1.2rem; color: var(--gray); max-width: 600px; margin: 0 auto 2rem auto; line-height: 1.6;">
+        FinLearn is a modern, gamified financial literacy platform designed exclusively for young adults. Learn how to budget, save, invest, and build wealth through interactive tools and AI-driven coaching.
+    </p>
+    
+    <a href="{{ url_for('quiz') }}" class="btn-primary" style="font-size: 1.1rem; padding: 0.8rem 2rem; display: inline-block;">
+        Start Learning Now
+    </a>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 4rem;">
+    <!-- Why Financial Literacy -->
+    <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">Why FinLearn? (Ages 16-25)</h3>
+        <p style="color: var(--gray); line-height: 1.6;">
+            The decisions you make between 16 and 25 dictate your financial freedom. School rarely teaches you about compound interest, credit scores, or SIPs. We bridge that gap using clear, actionable education.
+        </p>
+    </div>
+
+    <!-- How you Learn -->
+    <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">How You'll Learn</h3>
+        <p style="color: var(--gray); line-height: 1.6;">
+            Access our <strong>Learning Hub</strong> for curated YouTube masterclasses and podcasts. Apply your knowledge in our interactive <strong>Simulators</strong>, and test your understanding through 20 levels of rigorous <strong>Quizzes</strong>.
+        </p>
+    </div>
+
+    <!-- Gamification & Rewards -->
+    <div style="background: white; padding: 2rem; border-radius: 12px; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+        <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">Gamified Rewards</h3>
+        <p style="color: var(--gray); line-height: 1.6;">
+            Build a Daily Login Streak, rack up points for correct answers, conquer the <strong>Leaderboard</strong>, and unlock PDF <strong>Certificates</strong> (Growing Up, Proficient, Master) to prove your financial competency.
+        </p>
+    </div>
+</div>
+
+<div style="margin-top: 4rem; padding: 3rem; background: var(--black); color: white; border-radius: 16px; text-align: center;">
+    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Meet Your AI Coach</h2>
+    <p style="font-size: 1.1rem; color: #cbd5e1; max-width: 600px; margin: 0 auto 2rem auto;">
+        Have a specific question about an EMI, Mutual Fund, or Tax Bracket? Click the AI bot icon in the bottom right to chat with Coach Penny instantly.
+    </p>
+    <a href="{{ url_for('signup') }}" class="btn-primary" style="background: var(--accent);">Create Free Account</a>
+</div>
+{% endblock %}
