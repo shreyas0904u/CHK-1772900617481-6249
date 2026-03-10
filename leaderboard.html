@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard - FinLit Youth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="antialiased bg-slate-900 text-slate-50 flex h-screen overflow-hidden">
+    
+    <div class="fixed inset-0 pointer-events-none z-[-1]">
+        <div class="bg-blob bg-blob-1" style="background: rgba(245, 158, 11, 0.15);"></div>
+        <div class="bg-blob bg-blob-3" style="background: rgba(16, 185, 129, 0.1);"></div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="w-64 glass-panel border-y-0 border-l-0 rounded-none h-full flex flex-col hidden md:flex flex-shrink-0 z-20 relative">
+        <div class="p-6 border-b border-white/10 flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-indigo-500 to-cyan-400 flex items-center justify-center">
+                <i class="fa-solid fa-wallet text-white text-sm"></i>
+            </div>
+            <span class="font-heading font-bold text-lg text-white">FinLit<span class="text-secondary">Youth</span></span>
+        </div>
+        
+        <div class="flex-1 overflow-y-auto py-6 px-4 space-y-2 no-scrollbar">
+            <a href="dashboard.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/5 text-text-muted hover:text-white transition-colors">
+                <i class="fa-solid fa-chart-line w-5"></i> Dashboard
+            </a>
+            <a href="quiz.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/5 text-text-muted hover:text-white transition-colors">
+                <i class="fa-solid fa-graduation-cap w-5"></i> Quiz Module
+            </a>
+            <a href="simulation.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/5 text-text-muted hover:text-white transition-colors">
+                <i class="fa-solid fa-money-bill-trend-up w-5"></i> Simulations
+            </a>
+            <a href="spending-tracker.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/5 text-text-muted hover:text-white transition-colors">
+                <i class="fa-solid fa-wallet w-5"></i> Spending Tracker
+            </a>
+            <a href="ai-mentor.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/5 text-text-muted hover:text-white transition-colors">
+                <i class="fa-solid fa-robot w-5 text-cyan-400"></i> AI Mentor
+            </a>
+            <a href="leaderboard.html" class="flex items-center gap-3 px-4 py-3 rounded-xl bg-amber-500/20 text-amber-300 font-medium">
+                <i class="fa-solid fa-trophy w-5 text-amber-400"></i> Leaderboard
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col h-full relative z-10 overflow-y-auto w-full">
+        <!-- Header -->
+        <header class="glass-nav sticky top-0 z-30 px-6 py-4 flex items-center justify-between border-b border-white/10">
+            <div class="flex items-center gap-4">
+                <button class="md:hidden text-text-muted hover:text-white">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+                <h1 class="text-xl font-heading font-semibold">Global Rankings</h1>
+            </div>
+            <div class="text-xs text-text-muted">
+                Updates dynamically
+            </div>
+        </header>
+
+        <div class="p-6 max-w-4xl mx-auto w-full pb-20 mt-4 space-y-6">
+            
+            <!-- Podium (Top 3) -->
+            <div class="flex items-end justify-center gap-2 md:gap-6 mt-8 mb-12 h-48">
+                
+                <!-- Rank 2 -->
+                <div class="flex flex-col items-center w-24 md:w-32 transform translate-y-4">
+                    <div class="relative mb-2">
+                        <img id="podium-img-2" src="https://ui-avatars.com/api/?name=R" class="w-12 h-12 md:w-16 md:h-16 rounded-full border-4 border-slate-300 z-10 relative">
+                        <div class="absolute -top-3 -right-3 text-2xl drop-shadow-lg"><i class="fa-solid fa-medal text-slate-300"></i></div>
+                    </div>
+                    <div id="podium-name-2" class="text-xs md:text-sm font-bold truncate w-full text-center">Rahul</div>
+                    <div id="podium-xp-2" class="text-xs text-indigo-300 font-mono mb-2">0 XP</div>
+                    <div class="w-full h-24 bg-slate-800/80 rounded-t-xl border border-b-0 border-white/10 flex justify-center pt-2">
+                        <span class="text-2xl font-black text-slate-600">2</span>
+                    </div>
+                </div>
+
+                <!-- Rank 1 -->
+                <div class="flex flex-col items-center w-28 md:w-36 z-10">
+                    <div class="relative mb-2">
+                        <img id="podium-img-1" src="https://ui-avatars.com/api/?name=S" class="w-16 h-16 md:w-20 md:h-20 rounded-full border-4 border-amber-400 z-10 relative shadow-[0_0_20px_rgba(245,158,11,0.5)]">
+                        <div class="absolute -top-4 -right-4 text-3xl drop-shadow-[0_0_10px_rgba(245,158,11,0.8)]"><i class="fa-solid fa-crown text-amber-400"></i></div>
+                    </div>
+                    <div id="podium-name-1" class="text-sm md:text-base font-bold text-amber-400 truncate w-full text-center drop-shadow">Samarth</div>
+                    <div id="podium-xp-1" class="text-xs md:text-sm text-amber-200 font-mono font-bold mb-2">0 XP</div>
+                    <div class="w-full h-32 bg-gradient-to-t from-slate-800/80 to-indigo-900/40 rounded-t-xl border border-b-0 border-amber-500/30 flex justify-center pt-2 shadow-[0_-10px_20px_rgba(79,70,229,0.2)]">
+                        <span class="text-4xl font-black text-amber-500/40">1</span>
+                    </div>
+                </div>
+
+                <!-- Rank 3 -->
+                <div class="flex flex-col items-center w-24 md:w-32 transform translate-y-8">
+                    <div class="relative mb-2">
+                        <img id="podium-img-3" src="https://ui-avatars.com/api/?name=A" class="w-12 h-12 md:w-16 md:h-16 rounded-full border-4 border-amber-700 z-10 relative">
+                        <div class="absolute -top-3 -right-3 text-2xl drop-shadow-lg"><i class="fa-solid fa-medal text-amber-700"></i></div>
+                    </div>
+                    <div id="podium-name-3" class="text-xs md:text-sm font-bold truncate w-full text-center">Ankit</div>
+                    <div id="podium-xp-3" class="text-xs text-indigo-300 font-mono mb-2">0 XP</div>
+                    <div class="w-full h-20 bg-slate-800/80 rounded-t-xl border border-b-0 border-white/10 flex justify-center pt-2">
+                        <span class="text-2xl font-black text-slate-600">3</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- List View -->
+            <div class="glass-card overflow-hidden">
+                <div class="grid grid-cols-12 gap-4 p-4 border-b border-white/10 text-xs text-text-muted uppercase tracking-wider font-semibold bg-slate-800/50">
+                    <div class="col-span-2 text-center">Rank</div>
+                    <div class="col-span-7">Player</div>
+                    <div class="col-span-3 text-right">Total XP</div>
+                </div>
+                
+                <div id="leaderboard-list" class="divide-y divide-white/5">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- Current User Status -->
+            <div id="user-rank-status" class="glass-card p-4 mt-6 bg-indigo-500/10 border-indigo-500/30 flex items-center justify-between sticky bottom-4 z-20">
+                <div class="flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-full bg-indigo-500 flex items-center justify-center font-black" id="my-rank">#</div>
+                    <div>
+                        <div class="text-sm font-bold text-white">Your Ranking</div>
+                        <div class="text-xs text-indigo-300">Keep completing quizzes to climb!</div>
+                    </div>
+                </div>
+                <div class="text-xl font-mono font-bold text-white" id="my-xp">0 XP</div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/gamification.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/leaderboard.js"></script>
+</body>
+</html>
