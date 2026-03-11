@@ -93,20 +93,31 @@
             inp.value = '';
             hist.scrollTop = hist.scrollHeight;
 
-            // Mock Bot AI Response
-            setTimeout(() => {
+            // Call the real backend Gemini API
+            fetch('/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: text })
+            })
+            .then(res => res.json())
+            .then(data => {
                 var bDiv = document.createElement('div');
                 bDiv.style.cssText = "align-self: flex-start; background: white; padding: 0.75rem; border-radius: 8px; border: 1px solid #e2e8f0; font-size: 0.9rem; max-width: 80%;";
                 
-                let reply = "That's a great question! For long term wealth generation, always aim to save at least 20% of your income using the 50/30/20 rule.";
-                if (text.toLowerCase().includes('invest')) reply = "Investing early is key due to compound interest. Try our SIP calculator to forecast growth!";
-                if (text.toLowerCase().includes('credit')) reply = "Keep your credit utilization below 30% and always pay down the full balance monthly.";
-                
-                bDiv.innerText = reply;
+                // Gemini returns markdown-like text sometimes, but for simplicity we append innerText
+                bDiv.innerText = data.reply;
                 hist.appendChild(bDiv);
                 hist.scrollTop = hist.scrollHeight;
-            }, 800);
-        }
+            })
+            .catch(err => {
+                var bDiv = document.createElement('div');
+                bDiv.style.cssText = "align-self: flex-start; background: #FEF2F2; color: #991B1B; padding: 0.75rem; border-radius: 8px; border: 1px solid #F87171; font-size: 0.9rem; max-width: 80%;";
+                bDiv.innerText = "Error connecting to AI. Please try again later.";
+                hist.appendChild(bDiv);
+                hist.scrollTop = hist.scrollHeight;
+            });
+        
+}
     </script>
 
 </body>

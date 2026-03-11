@@ -89,12 +89,12 @@ function renderQuestion() {
         const btn = document.createElement('button');
         btn.innerHTML = `<strong>${opt.id}.</strong> ${opt.text}`;
         btn.style.cssText = "text-align: left; padding: 1.25rem; background: white; border: 1px solid var(--gray); border-radius: 8px; font-size: 1rem; cursor: pointer; transition: 0.2s;";
-        btn.onclick = () => selectOption(opt.id, btn);
+        btn.onclick = () => selectOption(opt.id, q.id, btn);
         optionsGrid.appendChild(btn);
     });
 }
 
-function selectOption(selectedId, buttonEl) {
+function selectOption(selectedId, questionId, buttonEl) {
     // Disable all buttons
     const buttons = document.getElementById('options-grid').querySelectorAll('button');
     buttons.forEach(b => b.disabled = true);
@@ -103,7 +103,7 @@ function selectOption(selectedId, buttonEl) {
     fetch('/api/submit_answer', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({ selected_option: selectedId })
+        body: JSON.stringify({ selected_option: selectedId, question_id: questionId })
     })
     .then(res => res.json())
     .then(data => {

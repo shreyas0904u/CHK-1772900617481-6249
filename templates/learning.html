@@ -1,6 +1,136 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<style>
+    .video-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .video-card {
+        background: white;
+        border-radius: 16px;
+        border: 1px solid #E5E5E5;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.04);
+        padding: 1rem;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .video-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+    }
+    
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+    
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    
+    .premium-lock {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        border-radius: 8px;
+    }
+    
+    .lock-icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .premium-btn {
+        background: #000;
+        color: #fff;
+        border: none;
+        border-radius: 99px;
+        padding: 0.5rem 1.25rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: transform 0.2s ease, background 0.2s ease;
+    }
+    
+    .premium-btn:hover {
+        background: #333;
+        transform: scale(1.05);
+    }
+    
+    .video-label {
+        align-self: flex-start;
+        padding: 0.2rem 0.6rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+    
+    .label-free {
+        background: var(--gray-light);
+        color: var(--black);
+    }
+    
+    .label-premium {
+        background: #f59e0b;
+        color: white;
+    }
+    
+    .video-title {
+        font-size: 1.1rem;
+        margin: 0 0 0.5rem 0;
+        font-weight: bold;
+    }
+    
+    .video-desc {
+        color: var(--gray);
+        font-size: 0.9rem;
+        margin: 0;
+        line-height: 1.4;
+    }
+    /* Enforcing the specific grid column counts */
+    @media (min-width: 1024px) {
+        .video-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+    @media (max-width: 1023px) and (min-width: 768px) {
+        .video-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width: 767px) {
+        .video-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
 <div style="margin: 2rem 0;">
     <div style="text-align: center; margin-bottom: 3rem;">
         <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">The Learning <span style="color: var(--primary);">Hub</span></h1>
@@ -8,85 +138,112 @@
     </div>
 
     <!-- Free Content Section -->
-    <h2 style="margin-bottom: 1.5rem; border-bottom: 2px solid var(--gray-light); padding-bottom: 0.5rem;">Free Masterclasses</h2>
+    <h2 style="margin-bottom: 1.5rem; border-bottom: 2px solid var(--gray-light); padding-bottom: 0.5rem;">Free Finance Learning Videos</h2>
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
+    <div class="video-grid">
         <!-- Video 1 -->
-        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-                <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube.com/embed/ZqM634oGq8I" title="Basic Finance" allowfullscreen></iframe>
+        <div class="video-card">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/RCECj6bzFv8" title="Basic Finance" allowfullscreen></iframe>
             </div>
-            <div style="padding: 1.5rem;">
-                <span style="background: var(--accent); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Basics</span>
-                <h3 style="margin: 0.5rem 0;">Investing for Beginners</h3>
-                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">Learn the fundamental rules of investing your first salary.</p>
-            </div>
+            <span class="video-label label-free">Free</span>
+            <h3 class="video-title">Investing for Beginners</h3>
+            <p class="video-desc">Learn the fundamentals of personal finance and money management.</p>
         </div>
 
         <!-- Video 2 -->
-        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-                <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube.com/embed/HQzoZfc3GwQ" title="Credit Scores" allowfullscreen></iframe>
+        <div class="video-card">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Oj-i1TeYA94" title="Credit Scores" allowfullscreen></iframe>
             </div>
-            <div style="padding: 1.5rem;">
-                <span style="background: var(--primary); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Credit</span>
-                <h3 style="margin: 0.5rem 0;">Credit Cards Explained</h3>
-                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">How to build an excellent credit score without falling into the debt trap.</p>
-            </div>
+            <span class="video-label label-free">Free</span>
+            <h3 class="video-title">Credit Cards Explained</h3>
+            <p class="video-desc">How to build an excellent credit score without falling into the debt trap.</p>
         </div>
         
         <!-- Video 3 -->
-        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-                <iframe style="position: absolute; top:0; left:0; width:100%; height:100%; border:0;" src="https://www.youtube.com/embed/9Bv_9o-xN_0" title="School of Hard Knocks" allowfullscreen></iframe>
+        <div class="video-card">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ZXLATRO3Ifw?start=154" title="Financial Mindset" allowfullscreen></iframe>
             </div>
-            <div style="padding: 1.5rem;">
-                <span style="background: var(--black); color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Interviews</span>
-                <h3 style="margin: 0.5rem 0;">School of Hard Knocks</h3>
-                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">Real financial advice from millionaires interviewed on the street.</p>
+            <span class="video-label label-free">Free</span>
+            <h3 class="video-title">Financial Mindset</h3>
+            <p class="video-desc">Understanding financial mindset and wealth-building strategies.</p>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="video-card">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/dthnyB9Rd2Y" title="School of Hard Knocks" allowfullscreen></iframe>
             </div>
+            <span class="video-label label-free">Free</span>
+            <h3 class="video-title">School of Hard Knocks</h3>
+            <p class="video-desc">Real financial advice from millionaires interviewed on the street.</p>
         </div>
     </div>
 
-
     <!-- Premium Content Section -->
-    <h2 style="margin-bottom: 1.5rem; border-bottom: 2px solid var(--gray-light); padding-bottom: 0.5rem;">Premium Masterclasses</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem;">
+    <h2 style="margin-bottom: 1.5rem; border-bottom: 2px solid var(--gray-light); padding-bottom: 0.5rem;">Premium Finance Learning Videos</h2>
+    <div class="video-grid">
         
         <!-- Premium Video 1 -->
-        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02); position: relative;">
-            <div style="position: relative; padding-bottom: 56.25%; height: 0; background: #e2e8f0; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-                <!-- Blur effect simulator -->
-                <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800" style="position: absolute; width: 100%; height: 100%; object-fit: cover; filter: blur(8px); opacity: 0.6;">
-                
-                <div style="position: absolute; z-index: 10; text-align: center; background: rgba(255,255,255,0.9); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-                    <div style="font-weight: 800; font-size: 1.25rem; margin-bottom: 0.5rem;">Premium – ₹199</div>
-                    <button class="btn-primary" onclick="alert('Payment Gateway Mock: Purchasing Premium Video 1')">Unlock Now</button>
+        <div class="video-card">
+            <div class="video-container">
+                <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800" style="position: absolute; width: 100%; height: 100%; object-fit: cover;">
+                <div class="premium-lock">
+                    <div class="lock-icon">🔒</div>
+                    <div style="font-weight: 800; font-size: 1.1rem; margin-bottom: 0.5rem; text-shadow: 0 1px 3px rgba(255,255,255,0.8); color: black;">Premium    ₹199</div>
+                    <button class="premium-btn" onclick="alert('Payment Gateway Mock: Purchasing Premium Video 1')">Unlock for ₹199</button>
                 </div>
             </div>
-            <div style="padding: 1.5rem;">
-                <span style="background: #f59e0b; color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Advanced</span>
-                <h3 style="margin: 0.5rem 0;">Advanced Options Trading</h3>
-                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">Go beyond stocks and learn how to hedge portfolios with options.</p>
-            </div>
+            <span class="video-label label-premium">Premium</span>
+            <h3 class="video-title">Advanced Options Trading</h3>
+            <p class="video-desc">Go beyond stocks and learn how to hedge portfolios with options.</p>
         </div>
         
         <!-- Premium Video 2 -->
-        <div style="background: white; border-radius: 12px; overflow: hidden; border: 1px solid var(--gray-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02); position: relative;">
-            <div style="position: relative; padding-bottom: 56.25%; height: 0; background: #e2e8f0; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-                <!-- Blur effect simulator -->
-                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800" style="position: absolute; width: 100%; height: 100%; object-fit: cover; filter: blur(8px); opacity: 0.6;">
-                
-                <div style="position: absolute; z-index: 10; text-align: center; background: rgba(255,255,255,0.9); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-                    <div style="font-weight: 800; font-size: 1.25rem; margin-bottom: 0.5rem;">Premium – ₹199</div>
-                    <button class="btn-primary" onclick="alert('Payment Gateway Mock: Purchasing Premium Video 2')">Unlock Now</button>
+        <div class="video-card">
+            <div class="video-container">
+                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800" style="position: absolute; width: 100%; height: 100%; object-fit: cover;">
+                <div class="premium-lock">
+                    <div class="lock-icon">🔒</div>
+                    <div style="font-weight: 800; font-size: 1.1rem; margin-bottom: 0.5rem; text-shadow: 0 1px 3px rgba(255,255,255,0.8); color: black;">Premium    ₹199</div>
+                    <button class="premium-btn" onclick="alert('Payment Gateway Mock: Purchasing Premium Video 2')">Unlock for ₹199</button>
                 </div>
             </div>
-            <div style="padding: 1.5rem;">
-                <span style="background: #f59e0b; color: white; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Real Estate</span>
-                <h3 style="margin: 0.5rem 0;">Real Estate Flipping 101</h3>
-                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">A comprehensive guide to analyzing property values and flipping.</p>
+            <span class="video-label label-premium">Premium</span>
+            <h3 class="video-title">Real Estate Flipping 101</h3>
+            <p class="video-desc">A comprehensive guide to analyzing property values and flipping.</p>
+        </div>
+
+        <!-- Premium Video 3 -->
+        <div class="video-card">
+            <div class="video-container">
+                <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&q=80&w=800" style="position: absolute; width: 100%; height: 100%; object-fit: cover;">
+                <div class="premium-lock">
+                    <div class="lock-icon">🔒</div>
+                    <div style="font-weight: 800; font-size: 1.1rem; margin-bottom: 0.5rem; text-shadow: 0 1px 3px rgba(255,255,255,0.8); color: black;">Premium    ₹199</div>
+                    <button class="premium-btn" onclick="alert('Payment Gateway Mock: Purchasing Premium Video 3')">Unlock for ₹199</button>
+                </div>
             </div>
+            <span class="video-label label-premium">Premium</span>
+            <h3 class="video-title">Crypto Investing Strategies</h3>
+            <p class="video-desc">Safely navigate the volatile cryptocurrency market with expert tactics.</p>
+        </div>
+
+        <!-- Premium Video 4 -->
+        <div class="video-card">
+            <div class="video-container">
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&q=80&w=800" style="position: absolute; width: 100%; height: 100%; object-fit: cover;">
+                <div class="premium-lock">
+                    <div class="lock-icon">🔒</div>
+                    <div style="font-weight: 800; font-size: 1.1rem; margin-bottom: 0.5rem; text-shadow: 0 1px 3px rgba(255,255,255,0.8); color: black;">Premium    ₹199</div>
+                    <button class="premium-btn" onclick="alert('Payment Gateway Mock: Purchasing Premium Video 4')">Unlock for ₹199</button>
+                </div>
+            </div>
+            <span class="video-label label-premium">Premium</span>
+            <h3 class="video-title">Angel Investing & VC</h3>
+            <p class="video-desc">A deep dive into early-stage startup funding and venture capital.</p>
         </div>
 
     </div>
