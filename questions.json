@@ -1,0 +1,5202 @@
+[
+    {
+        "id": "lvl1_q1",
+        "level": 1,
+        "topic": "Economics",
+        "text": "[Level 1] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "D",
+                "text": "A market that only deals in commodities"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl1_q2",
+        "level": 1,
+        "topic": "Budgeting",
+        "text": "[Level 1] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "B",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "C",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "D",
+                "text": "Return on Investment"
+            }
+        ],
+        "answer": "D",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl1_q3",
+        "level": 1,
+        "topic": "Investing",
+        "text": "[Level 1] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "B",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl1_q4",
+        "level": 1,
+        "topic": "Economics",
+        "text": "[Level 1] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It increases it"
+            },
+            {
+                "id": "B",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "C",
+                "text": "It has no effect"
+            },
+            {
+                "id": "D",
+                "text": "It decreases it"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl1_q5",
+        "level": 1,
+        "topic": "Credit",
+        "text": "[Level 1] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "B",
+                "text": "Payday loans"
+            },
+            {
+                "id": "C",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "D",
+                "text": "A mortgage for a home you can afford"
+            }
+        ],
+        "answer": "D",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl1_q6",
+        "level": 1,
+        "topic": "Economics",
+        "text": "[Level 1] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "B",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "C",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "D",
+                "text": "50% needs, 30% wants, 20% savings"
+            }
+        ],
+        "answer": "D",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl1_q7",
+        "level": 1,
+        "topic": "Budgeting",
+        "text": "[Level 1] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "B",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "C",
+                "text": "Reducing risk by spreading investments across different assets"
+            },
+            {
+                "id": "D",
+                "text": "Guaranteeing high returns"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl1_q8",
+        "level": 1,
+        "topic": "Economics",
+        "text": "[Level 1] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "B",
+                "text": "Payment history"
+            },
+            {
+                "id": "C",
+                "text": "New credit inquiries"
+            },
+            {
+                "id": "D",
+                "text": "Types of credit used"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl1_q9",
+        "level": 1,
+        "topic": "Personal Finance",
+        "text": "[Level 1] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "B",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl1_q10",
+        "level": 1,
+        "topic": "Personal Finance",
+        "text": "[Level 1] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "B",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "C",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "D",
+                "text": "Traditional Checking Account"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl2_q1",
+        "level": 2,
+        "topic": "Budgeting",
+        "text": "[Level 2] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "B",
+                "text": "It decreases it"
+            },
+            {
+                "id": "C",
+                "text": "It increases it"
+            },
+            {
+                "id": "D",
+                "text": "It has no effect"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl2_q2",
+        "level": 2,
+        "topic": "Budgeting",
+        "text": "[Level 2] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "B",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "C",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "D",
+                "text": "Money Market Account"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl2_q3",
+        "level": 2,
+        "topic": "Personal Finance",
+        "text": "[Level 2] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "B",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl2_q4",
+        "level": 2,
+        "topic": "Budgeting",
+        "text": "[Level 2] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "B",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "C",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "D",
+                "text": "Return on Investment"
+            }
+        ],
+        "answer": "D",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl2_q5",
+        "level": 2,
+        "topic": "Personal Finance",
+        "text": "[Level 2] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "B",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "C",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "D",
+                "text": "High-Yield Savings Account"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl2_q6",
+        "level": 2,
+        "topic": "Credit",
+        "text": "[Level 2] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "B",
+                "text": "Payment history"
+            },
+            {
+                "id": "C",
+                "text": "Types of credit used"
+            },
+            {
+                "id": "D",
+                "text": "New credit inquiries"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl2_q7",
+        "level": 2,
+        "topic": "Credit",
+        "text": "[Level 2] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "B",
+                "text": "Payday loans"
+            },
+            {
+                "id": "C",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "D",
+                "text": "A mortgage for a home you can afford"
+            }
+        ],
+        "answer": "D",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl2_q8",
+        "level": 2,
+        "topic": "Economics",
+        "text": "[Level 2] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "B",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "C",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "D",
+                "text": "Revenue of Income"
+            }
+        ],
+        "answer": "B",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl2_q9",
+        "level": 2,
+        "topic": "Budgeting",
+        "text": "[Level 2] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "B",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl2_q10",
+        "level": 2,
+        "topic": "Credit",
+        "text": "[Level 2] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "B",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "C",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "D",
+                "text": "50% needs, 30% wants, 20% savings"
+            }
+        ],
+        "answer": "D",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl3_q1",
+        "level": 3,
+        "topic": "Budgeting",
+        "text": "[Level 3] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "B",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "C",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "D",
+                "text": "Return on Investment"
+            }
+        ],
+        "answer": "D",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl3_q2",
+        "level": 3,
+        "topic": "Economics",
+        "text": "[Level 3] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "B",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "C",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "D",
+                "text": "Revenue of Income"
+            }
+        ],
+        "answer": "C",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl3_q3",
+        "level": 3,
+        "topic": "Credit",
+        "text": "[Level 3] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "B",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "C",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "D",
+                "text": "50% wants, 30% needs, 20% debt"
+            }
+        ],
+        "answer": "C",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl3_q4",
+        "level": 3,
+        "topic": "Personal Finance",
+        "text": "[Level 3] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "B",
+                "text": "It has no effect"
+            },
+            {
+                "id": "C",
+                "text": "It increases it"
+            },
+            {
+                "id": "D",
+                "text": "It decreases it"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl3_q5",
+        "level": 3,
+        "topic": "Personal Finance",
+        "text": "[Level 3] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "B",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "C",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "D",
+                "text": "Calculating your taxes"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl3_q6",
+        "level": 3,
+        "topic": "Economics",
+        "text": "[Level 3] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Assessing your risk as a borrower"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl3_q7",
+        "level": 3,
+        "topic": "Personal Finance",
+        "text": "[Level 3] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "B",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "C",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "D",
+                "text": "Revenue of Income"
+            }
+        ],
+        "answer": "A",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl3_q8",
+        "level": 3,
+        "topic": "Investing",
+        "text": "[Level 3] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "B",
+                "text": "Payday loans"
+            },
+            {
+                "id": "C",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "D",
+                "text": "An auto loan for a luxury car above your means"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl3_q9",
+        "level": 3,
+        "topic": "Personal Finance",
+        "text": "[Level 3] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "B",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "C",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "D",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            }
+        ],
+        "answer": "D",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl3_q10",
+        "level": 3,
+        "topic": "Investing",
+        "text": "[Level 3] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "B",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are falling by 20% or more"
+            }
+        ],
+        "answer": "D",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl4_q1",
+        "level": 4,
+        "topic": "Investing",
+        "text": "[Level 4] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "B",
+                "text": "Payday loans"
+            },
+            {
+                "id": "C",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "D",
+                "text": "A mortgage for a home you can afford"
+            }
+        ],
+        "answer": "D",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl4_q2",
+        "level": 4,
+        "topic": "Investing",
+        "text": "[Level 4] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "New credit inquiries"
+            },
+            {
+                "id": "B",
+                "text": "Types of credit used"
+            },
+            {
+                "id": "C",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "D",
+                "text": "Payment history"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl4_q3",
+        "level": 4,
+        "topic": "Personal Finance",
+        "text": "[Level 4] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "B",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "C",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl4_q4",
+        "level": 4,
+        "topic": "Economics",
+        "text": "[Level 4] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "B",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are rising"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl4_q5",
+        "level": 4,
+        "topic": "Economics",
+        "text": "[Level 4] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "D",
+                "text": "A market that only deals in commodities"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl4_q6",
+        "level": 4,
+        "topic": "Investing",
+        "text": "[Level 4] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "C",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl4_q7",
+        "level": 4,
+        "topic": "Budgeting",
+        "text": "[Level 4] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "B",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "C",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            },
+            {
+                "id": "D",
+                "text": "To pay for daily coffee and dining out"
+            }
+        ],
+        "answer": "C",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl4_q8",
+        "level": 4,
+        "topic": "Investing",
+        "text": "[Level 4] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "B",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "C",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "D",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            }
+        ],
+        "answer": "D",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl4_q9",
+        "level": 4,
+        "topic": "Economics",
+        "text": "[Level 4] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl4_q10",
+        "level": 4,
+        "topic": "Economics",
+        "text": "[Level 4] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "B",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "C",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "D",
+                "text": "Traditional Checking Account"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl5_q1",
+        "level": 5,
+        "topic": "Credit",
+        "text": "[Level 5] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "C",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "D",
+                "text": "Applying for a passport"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl5_q2",
+        "level": 5,
+        "topic": "Credit",
+        "text": "[Level 5] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "B",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "C",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "D",
+                "text": "50% wants, 30% needs, 20% debt"
+            }
+        ],
+        "answer": "C",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl5_q3",
+        "level": 5,
+        "topic": "Budgeting",
+        "text": "[Level 5] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "B",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Calculating your taxes"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl5_q4",
+        "level": 5,
+        "topic": "Economics",
+        "text": "[Level 5] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "B",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "C",
+                "text": "Payday loans"
+            },
+            {
+                "id": "D",
+                "text": "A mortgage for a home you can afford"
+            }
+        ],
+        "answer": "D",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl5_q5",
+        "level": 5,
+        "topic": "Budgeting",
+        "text": "[Level 5] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It decreases it"
+            },
+            {
+                "id": "B",
+                "text": "It has no effect"
+            },
+            {
+                "id": "C",
+                "text": "It increases it"
+            },
+            {
+                "id": "D",
+                "text": "It doubles it every year"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl5_q6",
+        "level": 5,
+        "topic": "Investing",
+        "text": "[Level 5] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Payday loans"
+            },
+            {
+                "id": "B",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "C",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "D",
+                "text": "A mortgage for a home you can afford"
+            }
+        ],
+        "answer": "D",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl5_q7",
+        "level": 5,
+        "topic": "Personal Finance",
+        "text": "[Level 5] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "New credit inquiries"
+            },
+            {
+                "id": "B",
+                "text": "Payment history"
+            },
+            {
+                "id": "C",
+                "text": "Types of credit used"
+            },
+            {
+                "id": "D",
+                "text": "Length of credit history"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl5_q8",
+        "level": 5,
+        "topic": "Economics",
+        "text": "[Level 5] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "B",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "C",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "D",
+                "text": "High-Yield Savings Account"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl5_q9",
+        "level": 5,
+        "topic": "Investing",
+        "text": "[Level 5] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It increases it"
+            },
+            {
+                "id": "B",
+                "text": "It has no effect"
+            },
+            {
+                "id": "C",
+                "text": "It decreases it"
+            },
+            {
+                "id": "D",
+                "text": "It doubles it every year"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl5_q10",
+        "level": 5,
+        "topic": "Budgeting",
+        "text": "[Level 5] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "B",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% investing, 30% savings, 20% spending"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl6_q1",
+        "level": 6,
+        "topic": "Investing",
+        "text": "[Level 6] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Applying for a passport"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl6_q2",
+        "level": 6,
+        "topic": "Budgeting",
+        "text": "[Level 6] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Assessing your risk as a borrower"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl6_q3",
+        "level": 6,
+        "topic": "Investing",
+        "text": "[Level 6] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Payday loans"
+            },
+            {
+                "id": "B",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "C",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "D",
+                "text": "An auto loan for a luxury car above your means"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl6_q4",
+        "level": 6,
+        "topic": "Budgeting",
+        "text": "[Level 6] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "B",
+                "text": "Payday loans"
+            },
+            {
+                "id": "C",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "D",
+                "text": "An auto loan for a luxury car above your means"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl6_q5",
+        "level": 6,
+        "topic": "Budgeting",
+        "text": "[Level 6] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "B",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "C",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "D",
+                "text": "Revenue of Income"
+            }
+        ],
+        "answer": "A",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl6_q6",
+        "level": 6,
+        "topic": "Credit",
+        "text": "[Level 6] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "B",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are rising"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl6_q7",
+        "level": 6,
+        "topic": "Credit",
+        "text": "[Level 6] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "B",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "C",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "D",
+                "text": "Risk of Interest"
+            }
+        ],
+        "answer": "B",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl6_q8",
+        "level": 6,
+        "topic": "Budgeting",
+        "text": "[Level 6] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It decreases it"
+            },
+            {
+                "id": "B",
+                "text": "It increases it"
+            },
+            {
+                "id": "C",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "D",
+                "text": "It has no effect"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl6_q9",
+        "level": 6,
+        "topic": "Economics",
+        "text": "[Level 6] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "B",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            },
+            {
+                "id": "C",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "D",
+                "text": "To save for a luxury vacation"
+            }
+        ],
+        "answer": "B",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl6_q10",
+        "level": 6,
+        "topic": "Budgeting",
+        "text": "[Level 6] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "C",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "D",
+                "text": "Assessing your risk as a borrower"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl7_q1",
+        "level": 7,
+        "topic": "Personal Finance",
+        "text": "[Level 7] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "B",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% investing, 30% savings, 20% spending"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl7_q2",
+        "level": 7,
+        "topic": "Personal Finance",
+        "text": "[Level 7] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "B",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "C",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "D",
+                "text": "Money Market Account"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl7_q3",
+        "level": 7,
+        "topic": "Personal Finance",
+        "text": "[Level 7] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "B",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are rising"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl7_q4",
+        "level": 7,
+        "topic": "Economics",
+        "text": "[Level 7] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "C",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "D",
+                "text": "Assessing your risk as a borrower"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl7_q5",
+        "level": 7,
+        "topic": "Personal Finance",
+        "text": "[Level 7] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Calculating your taxes"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl7_q6",
+        "level": 7,
+        "topic": "Budgeting",
+        "text": "[Level 7] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Assessing your risk as a borrower"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl7_q7",
+        "level": 7,
+        "topic": "Budgeting",
+        "text": "[Level 7] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "C",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "D",
+                "text": "A market focused on real estate"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl7_q8",
+        "level": 7,
+        "topic": "Personal Finance",
+        "text": "[Level 7] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It increases it"
+            },
+            {
+                "id": "B",
+                "text": "It decreases it"
+            },
+            {
+                "id": "C",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "D",
+                "text": "It has no effect"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl7_q9",
+        "level": 7,
+        "topic": "Personal Finance",
+        "text": "[Level 7] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "B",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "C",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl7_q10",
+        "level": 7,
+        "topic": "Investing",
+        "text": "[Level 7] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "B",
+                "text": "It increases it"
+            },
+            {
+                "id": "C",
+                "text": "It has no effect"
+            },
+            {
+                "id": "D",
+                "text": "It decreases it"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl8_q1",
+        "level": 8,
+        "topic": "Personal Finance",
+        "text": "[Level 8] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "B",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl8_q2",
+        "level": 8,
+        "topic": "Economics",
+        "text": "[Level 8] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "B",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "C",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "D",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            }
+        ],
+        "answer": "D",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl8_q3",
+        "level": 8,
+        "topic": "Investing",
+        "text": "[Level 8] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "B",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "C",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            },
+            {
+                "id": "D",
+                "text": "To pay for daily coffee and dining out"
+            }
+        ],
+        "answer": "C",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl8_q4",
+        "level": 8,
+        "topic": "Budgeting",
+        "text": "[Level 8] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "B",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "D",
+                "text": "A market that only deals in commodities"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl8_q5",
+        "level": 8,
+        "topic": "Credit",
+        "text": "[Level 8] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "B",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "C",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "D",
+                "text": "Return on Investment"
+            }
+        ],
+        "answer": "D",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl8_q6",
+        "level": 8,
+        "topic": "Economics",
+        "text": "[Level 8] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "D",
+                "text": "Assessing your risk as a borrower"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl8_q7",
+        "level": 8,
+        "topic": "Credit",
+        "text": "[Level 8] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It has no effect"
+            },
+            {
+                "id": "B",
+                "text": "It decreases it"
+            },
+            {
+                "id": "C",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "D",
+                "text": "It increases it"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl8_q8",
+        "level": 8,
+        "topic": "Personal Finance",
+        "text": "[Level 8] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "B",
+                "text": "Payday loans"
+            },
+            {
+                "id": "C",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "D",
+                "text": "An auto loan for a luxury car above your means"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl8_q9",
+        "level": 8,
+        "topic": "Economics",
+        "text": "[Level 8] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "B",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "C",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "D",
+                "text": "Return on Investment"
+            }
+        ],
+        "answer": "D",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl8_q10",
+        "level": 8,
+        "topic": "Budgeting",
+        "text": "[Level 8] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Calculating your taxes"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl9_q1",
+        "level": 9,
+        "topic": "Economics",
+        "text": "[Level 9] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Payday loans"
+            },
+            {
+                "id": "B",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "C",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "D",
+                "text": "An auto loan for a luxury car above your means"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl9_q2",
+        "level": 9,
+        "topic": "Investing",
+        "text": "[Level 9] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "B",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "C",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "D",
+                "text": "Traditional Checking Account"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl9_q3",
+        "level": 9,
+        "topic": "Budgeting",
+        "text": "[Level 9] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "B",
+                "text": "Reducing risk by spreading investments across different assets"
+            },
+            {
+                "id": "C",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "D",
+                "text": "Avoiding all taxes"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl9_q4",
+        "level": 9,
+        "topic": "Investing",
+        "text": "[Level 9] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "B",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "C",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "D",
+                "text": "Reducing risk by spreading investments across different assets"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl9_q5",
+        "level": 9,
+        "topic": "Investing",
+        "text": "[Level 9] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "B",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "C",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "D",
+                "text": "Reducing risk by spreading investments across different assets"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl9_q6",
+        "level": 9,
+        "topic": "Investing",
+        "text": "[Level 9] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl9_q7",
+        "level": 9,
+        "topic": "Credit",
+        "text": "[Level 9] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "B",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "C",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "D",
+                "text": "Money Market Account"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl9_q8",
+        "level": 9,
+        "topic": "Personal Finance",
+        "text": "[Level 9] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "C",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "D",
+                "text": "Applying for a passport"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl9_q9",
+        "level": 9,
+        "topic": "Economics",
+        "text": "[Level 9] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "B",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "D",
+                "text": "A market that only deals in commodities"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl9_q10",
+        "level": 9,
+        "topic": "Budgeting",
+        "text": "[Level 9] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "B",
+                "text": "Types of credit used"
+            },
+            {
+                "id": "C",
+                "text": "New credit inquiries"
+            },
+            {
+                "id": "D",
+                "text": "Payment history"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl10_q1",
+        "level": 10,
+        "topic": "Investing",
+        "text": "[Level 10] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "B",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "C",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "D",
+                "text": "High-Yield Savings Account"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl10_q2",
+        "level": 10,
+        "topic": "Budgeting",
+        "text": "[Level 10] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "D",
+                "text": "Applying for a passport"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl10_q3",
+        "level": 10,
+        "topic": "Economics",
+        "text": "[Level 10] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "B",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "D",
+                "text": "A market that only deals in commodities"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl10_q4",
+        "level": 10,
+        "topic": "Economics",
+        "text": "[Level 10] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "B",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "C",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            },
+            {
+                "id": "D",
+                "text": "To pay for daily coffee and dining out"
+            }
+        ],
+        "answer": "C",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl10_q5",
+        "level": 10,
+        "topic": "Credit",
+        "text": "[Level 10] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "B",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "C",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "D",
+                "text": "High-Yield Savings Account"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl10_q6",
+        "level": 10,
+        "topic": "Investing",
+        "text": "[Level 10] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "B",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "C",
+                "text": "Payday loans"
+            },
+            {
+                "id": "D",
+                "text": "A mortgage for a home you can afford"
+            }
+        ],
+        "answer": "D",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl10_q7",
+        "level": 10,
+        "topic": "Personal Finance",
+        "text": "[Level 10] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl10_q8",
+        "level": 10,
+        "topic": "Personal Finance",
+        "text": "[Level 10] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It decreases it"
+            },
+            {
+                "id": "B",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "C",
+                "text": "It increases it"
+            },
+            {
+                "id": "D",
+                "text": "It has no effect"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl10_q9",
+        "level": 10,
+        "topic": "Budgeting",
+        "text": "[Level 10] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            },
+            {
+                "id": "B",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "C",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "D",
+                "text": "To save for a luxury vacation"
+            }
+        ],
+        "answer": "A",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl10_q10",
+        "level": 10,
+        "topic": "Credit",
+        "text": "[Level 10] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "D",
+                "text": "A market that only deals in commodities"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl11_q1",
+        "level": 11,
+        "topic": "Credit",
+        "text": "[Level 11] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "B",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% investing, 30% savings, 20% spending"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl11_q2",
+        "level": 11,
+        "topic": "Economics",
+        "text": "[Level 11] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Payment history"
+            },
+            {
+                "id": "B",
+                "text": "New credit inquiries"
+            },
+            {
+                "id": "C",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "D",
+                "text": "Types of credit used"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl11_q3",
+        "level": 11,
+        "topic": "Budgeting",
+        "text": "[Level 11] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "C",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl11_q4",
+        "level": 11,
+        "topic": "Budgeting",
+        "text": "[Level 11] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Types of credit used"
+            },
+            {
+                "id": "B",
+                "text": "Payment history"
+            },
+            {
+                "id": "C",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "D",
+                "text": "New credit inquiries"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl11_q5",
+        "level": 11,
+        "topic": "Investing",
+        "text": "[Level 11] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "B",
+                "text": "It increases it"
+            },
+            {
+                "id": "C",
+                "text": "It decreases it"
+            },
+            {
+                "id": "D",
+                "text": "It has no effect"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl11_q6",
+        "level": 11,
+        "topic": "Personal Finance",
+        "text": "[Level 11] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "B",
+                "text": "Payday loans"
+            },
+            {
+                "id": "C",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "D",
+                "text": "High-interest credit card debt"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl11_q7",
+        "level": 11,
+        "topic": "Credit",
+        "text": "[Level 11] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "B",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "C",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "D",
+                "text": "Revenue of Income"
+            }
+        ],
+        "answer": "B",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl11_q8",
+        "level": 11,
+        "topic": "Credit",
+        "text": "[Level 11] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "B",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% investing, 30% savings, 20% spending"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl11_q9",
+        "level": 11,
+        "topic": "Economics",
+        "text": "[Level 11] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "B",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "C",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl11_q10",
+        "level": 11,
+        "topic": "Budgeting",
+        "text": "[Level 11] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "B",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "C",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "D",
+                "text": "50% wants, 30% needs, 20% debt"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl12_q1",
+        "level": 12,
+        "topic": "Personal Finance",
+        "text": "[Level 12] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "B",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            },
+            {
+                "id": "C",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "D",
+                "text": "To pay for daily coffee and dining out"
+            }
+        ],
+        "answer": "B",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl12_q2",
+        "level": 12,
+        "topic": "Personal Finance",
+        "text": "[Level 12] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It has no effect"
+            },
+            {
+                "id": "B",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "C",
+                "text": "It decreases it"
+            },
+            {
+                "id": "D",
+                "text": "It increases it"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl12_q3",
+        "level": 12,
+        "topic": "Budgeting",
+        "text": "[Level 12] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Assessing your risk as a borrower"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl12_q4",
+        "level": 12,
+        "topic": "Budgeting",
+        "text": "[Level 12] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Calculating your taxes"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl12_q5",
+        "level": 12,
+        "topic": "Investing",
+        "text": "[Level 12] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Reducing risk by spreading investments across different assets"
+            },
+            {
+                "id": "B",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "C",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "D",
+                "text": "Avoiding all taxes"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl12_q6",
+        "level": 12,
+        "topic": "Investing",
+        "text": "[Level 12] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "B",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "C",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "D",
+                "text": "Reducing risk by spreading investments across different assets"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl12_q7",
+        "level": 12,
+        "topic": "Budgeting",
+        "text": "[Level 12] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "D",
+                "text": "A market focused on real estate"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl12_q8",
+        "level": 12,
+        "topic": "Investing",
+        "text": "[Level 12] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "B",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "D",
+                "text": "A market focused on real estate"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl12_q9",
+        "level": 12,
+        "topic": "Investing",
+        "text": "[Level 12] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Reducing risk by spreading investments across different assets"
+            },
+            {
+                "id": "B",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "C",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "D",
+                "text": "Avoiding all taxes"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl12_q10",
+        "level": 12,
+        "topic": "Investing",
+        "text": "[Level 12] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "C",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "D",
+                "text": "Applying for a passport"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl13_q1",
+        "level": 13,
+        "topic": "Budgeting",
+        "text": "[Level 13] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "B",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "C",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "D",
+                "text": "Payday loans"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl13_q2",
+        "level": 13,
+        "topic": "Economics",
+        "text": "[Level 13] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "B",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "C",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "D",
+                "text": "High-Yield Savings Account"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl13_q3",
+        "level": 13,
+        "topic": "Credit",
+        "text": "[Level 13] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Assessing your risk as a borrower"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl13_q4",
+        "level": 13,
+        "topic": "Economics",
+        "text": "[Level 13] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "B",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "C",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl13_q5",
+        "level": 13,
+        "topic": "Credit",
+        "text": "[Level 13] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl13_q6",
+        "level": 13,
+        "topic": "Investing",
+        "text": "[Level 13] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "New credit inquiries"
+            },
+            {
+                "id": "B",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "C",
+                "text": "Payment history"
+            },
+            {
+                "id": "D",
+                "text": "Types of credit used"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl13_q7",
+        "level": 13,
+        "topic": "Economics",
+        "text": "[Level 13] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "B",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "C",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "C",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl13_q8",
+        "level": 13,
+        "topic": "Budgeting",
+        "text": "[Level 13] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "C",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "D",
+                "text": "Applying for a passport"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl13_q9",
+        "level": 13,
+        "topic": "Investing",
+        "text": "[Level 13] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "B",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "C",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "D",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            }
+        ],
+        "answer": "D",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl13_q10",
+        "level": 13,
+        "topic": "Credit",
+        "text": "[Level 13] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "D",
+                "text": "A market focused on real estate"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl14_q1",
+        "level": 14,
+        "topic": "Credit",
+        "text": "[Level 14] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "B",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "C",
+                "text": "Reducing risk by spreading investments across different assets"
+            },
+            {
+                "id": "D",
+                "text": "Guaranteeing high returns"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl14_q2",
+        "level": 14,
+        "topic": "Personal Finance",
+        "text": "[Level 14] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "B",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "C",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            },
+            {
+                "id": "D",
+                "text": "To invest in high-risk stocks"
+            }
+        ],
+        "answer": "C",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl14_q3",
+        "level": 14,
+        "topic": "Investing",
+        "text": "[Level 14] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "B",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "C",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "D",
+                "text": "Traditional Checking Account"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl14_q4",
+        "level": 14,
+        "topic": "Economics",
+        "text": "[Level 14] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "B",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "C",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are rising"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl14_q5",
+        "level": 14,
+        "topic": "Investing",
+        "text": "[Level 14] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "B",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "C",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "D",
+                "text": "Rate of Inflation"
+            }
+        ],
+        "answer": "B",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl14_q6",
+        "level": 14,
+        "topic": "Credit",
+        "text": "[Level 14] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "B",
+                "text": "It has no effect"
+            },
+            {
+                "id": "C",
+                "text": "It increases it"
+            },
+            {
+                "id": "D",
+                "text": "It decreases it"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl14_q7",
+        "level": 14,
+        "topic": "Investing",
+        "text": "[Level 14] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "B",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "C",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "D",
+                "text": "50% needs, 30% wants, 20% savings"
+            }
+        ],
+        "answer": "D",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl14_q8",
+        "level": 14,
+        "topic": "Credit",
+        "text": "[Level 14] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "B",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "C",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "D",
+                "text": "Traditional Checking Account"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl14_q9",
+        "level": 14,
+        "topic": "Credit",
+        "text": "[Level 14] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "B",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "C",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl14_q10",
+        "level": 14,
+        "topic": "Economics",
+        "text": "[Level 14] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "B",
+                "text": "It increases it"
+            },
+            {
+                "id": "C",
+                "text": "It has no effect"
+            },
+            {
+                "id": "D",
+                "text": "It decreases it"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl15_q1",
+        "level": 15,
+        "topic": "Personal Finance",
+        "text": "[Level 15] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "B",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "C",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "D",
+                "text": "Return on Investment"
+            }
+        ],
+        "answer": "D",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl15_q2",
+        "level": 15,
+        "topic": "Economics",
+        "text": "[Level 15] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "B",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "C",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "D",
+                "text": "Reducing risk by spreading investments across different assets"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl15_q3",
+        "level": 15,
+        "topic": "Budgeting",
+        "text": "[Level 15] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            },
+            {
+                "id": "B",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "C",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "D",
+                "text": "To save for a luxury vacation"
+            }
+        ],
+        "answer": "A",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl15_q4",
+        "level": 15,
+        "topic": "Investing",
+        "text": "[Level 15] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "B",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "C",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "D",
+                "text": "50% wants, 30% needs, 20% debt"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl15_q5",
+        "level": 15,
+        "topic": "Economics",
+        "text": "[Level 15] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "B",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "D",
+                "text": "A market focused on real estate"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl15_q6",
+        "level": 15,
+        "topic": "Budgeting",
+        "text": "[Level 15] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "B",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "C",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "D",
+                "text": "High-Yield Savings Account"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl15_q7",
+        "level": 15,
+        "topic": "Credit",
+        "text": "[Level 15] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "B",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "C",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "D",
+                "text": "50% needs, 30% wants, 20% savings"
+            }
+        ],
+        "answer": "D",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl15_q8",
+        "level": 15,
+        "topic": "Credit",
+        "text": "[Level 15] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "B",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "C",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl15_q9",
+        "level": 15,
+        "topic": "Personal Finance",
+        "text": "[Level 15] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "B",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "D",
+                "text": "A market focused on real estate"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl15_q10",
+        "level": 15,
+        "topic": "Credit",
+        "text": "[Level 15] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "B",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "C",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "D",
+                "text": "Traditional Checking Account"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl16_q1",
+        "level": 16,
+        "topic": "Credit",
+        "text": "[Level 16] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl16_q2",
+        "level": 16,
+        "topic": "Investing",
+        "text": "[Level 16] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Reducing risk by spreading investments across different assets"
+            },
+            {
+                "id": "B",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "C",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "D",
+                "text": "Making it easier to track your portfolio"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl16_q3",
+        "level": 16,
+        "topic": "Economics",
+        "text": "[Level 16] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Reducing risk by spreading investments across different assets"
+            },
+            {
+                "id": "B",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "C",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "D",
+                "text": "Guaranteeing high returns"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl16_q4",
+        "level": 16,
+        "topic": "Investing",
+        "text": "[Level 16] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "B",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "C",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "D",
+                "text": "High-Yield Savings Account"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl16_q5",
+        "level": 16,
+        "topic": "Personal Finance",
+        "text": "[Level 16] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "B",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "C",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "D",
+                "text": "Risk of Interest"
+            }
+        ],
+        "answer": "C",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl16_q6",
+        "level": 16,
+        "topic": "Investing",
+        "text": "[Level 16] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "B",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "C",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "D",
+                "text": "50% needs, 30% wants, 20% savings"
+            }
+        ],
+        "answer": "D",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl16_q7",
+        "level": 16,
+        "topic": "Investing",
+        "text": "[Level 16] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "B",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "C",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "D",
+                "text": "High-Yield Savings Account"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl16_q8",
+        "level": 16,
+        "topic": "Economics",
+        "text": "[Level 16] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "B",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "C",
+                "text": "Payday loans"
+            },
+            {
+                "id": "D",
+                "text": "High-interest credit card debt"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl16_q9",
+        "level": 16,
+        "topic": "Credit",
+        "text": "[Level 16] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It decreases it"
+            },
+            {
+                "id": "B",
+                "text": "It increases it"
+            },
+            {
+                "id": "C",
+                "text": "It has no effect"
+            },
+            {
+                "id": "D",
+                "text": "It doubles it every year"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl16_q10",
+        "level": 16,
+        "topic": "Investing",
+        "text": "[Level 16] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "B",
+                "text": "Traditional Checking Account"
+            },
+            {
+                "id": "C",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "D",
+                "text": "Money Market Account"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl17_q1",
+        "level": 17,
+        "topic": "Investing",
+        "text": "[Level 17] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are rising"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl17_q2",
+        "level": 17,
+        "topic": "Budgeting",
+        "text": "[Level 17] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It has no effect"
+            },
+            {
+                "id": "B",
+                "text": "It increases it"
+            },
+            {
+                "id": "C",
+                "text": "It decreases it"
+            },
+            {
+                "id": "D",
+                "text": "It doubles it every year"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl17_q3",
+        "level": 17,
+        "topic": "Economics",
+        "text": "[Level 17] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "B",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "C",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "D",
+                "text": "Return on Investment"
+            }
+        ],
+        "answer": "D",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl17_q4",
+        "level": 17,
+        "topic": "Credit",
+        "text": "[Level 17] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "B",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "C",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "D",
+                "text": "Risk of Interest"
+            }
+        ],
+        "answer": "C",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl17_q5",
+        "level": 17,
+        "topic": "Investing",
+        "text": "[Level 17] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It decreases it"
+            },
+            {
+                "id": "B",
+                "text": "It has no effect"
+            },
+            {
+                "id": "C",
+                "text": "It increases it"
+            },
+            {
+                "id": "D",
+                "text": "It doubles it every year"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl17_q6",
+        "level": 17,
+        "topic": "Investing",
+        "text": "[Level 17] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "B",
+                "text": "New credit inquiries"
+            },
+            {
+                "id": "C",
+                "text": "Types of credit used"
+            },
+            {
+                "id": "D",
+                "text": "Payment history"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl17_q7",
+        "level": 17,
+        "topic": "Personal Finance",
+        "text": "[Level 17] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "B",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "C",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "D",
+                "text": "Reducing risk by spreading investments across different assets"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl17_q8",
+        "level": 17,
+        "topic": "Budgeting",
+        "text": "[Level 17] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "D",
+                "text": "A market focused on real estate"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl17_q9",
+        "level": 17,
+        "topic": "Credit",
+        "text": "[Level 17] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Calculating your taxes"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl17_q10",
+        "level": 17,
+        "topic": "Economics",
+        "text": "[Level 17] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "B",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "C",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl18_q1",
+        "level": 18,
+        "topic": "Investing",
+        "text": "[Level 18] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "B",
+                "text": "Payday loans"
+            },
+            {
+                "id": "C",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "D",
+                "text": "High-interest credit card debt"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl18_q2",
+        "level": 18,
+        "topic": "Investing",
+        "text": "[Level 18] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "B",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "C",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "D",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            }
+        ],
+        "answer": "D",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl18_q3",
+        "level": 18,
+        "topic": "Budgeting",
+        "text": "[Level 18] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "B",
+                "text": "Reducing risk by spreading investments across different assets"
+            },
+            {
+                "id": "C",
+                "text": "Guaranteeing high returns"
+            },
+            {
+                "id": "D",
+                "text": "Making it easier to track your portfolio"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl18_q4",
+        "level": 18,
+        "topic": "Economics",
+        "text": "[Level 18] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "B",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "C",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are rising"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl18_q5",
+        "level": 18,
+        "topic": "Budgeting",
+        "text": "[Level 18] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Types of credit used"
+            },
+            {
+                "id": "B",
+                "text": "New credit inquiries"
+            },
+            {
+                "id": "C",
+                "text": "Payment history"
+            },
+            {
+                "id": "D",
+                "text": "Length of credit history"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl18_q6",
+        "level": 18,
+        "topic": "Budgeting",
+        "text": "[Level 18] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "D",
+                "text": "A market that only deals in commodities"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl18_q7",
+        "level": 18,
+        "topic": "Personal Finance",
+        "text": "[Level 18] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "C",
+                "text": "Determining your salary"
+            },
+            {
+                "id": "D",
+                "text": "Applying for a passport"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl18_q8",
+        "level": 18,
+        "topic": "Budgeting",
+        "text": "[Level 18] What is the primary purpose of an emergency fund?",
+        "options": [
+            {
+                "id": "A",
+                "text": "To invest in high-risk stocks"
+            },
+            {
+                "id": "B",
+                "text": "To save for a luxury vacation"
+            },
+            {
+                "id": "C",
+                "text": "To pay for daily coffee and dining out"
+            },
+            {
+                "id": "D",
+                "text": "To cover unexpected expenses like medical bills or car repairs"
+            }
+        ],
+        "answer": "D",
+        "explanation": "An emergency fund is designed to cover unexpected financial shortfalls."
+    },
+    {
+        "id": "lvl18_q9",
+        "level": 18,
+        "topic": "Investing",
+        "text": "[Level 18] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "An auto loan for a luxury car above your means"
+            },
+            {
+                "id": "B",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "C",
+                "text": "Payday loans"
+            },
+            {
+                "id": "D",
+                "text": "A mortgage for a home you can afford"
+            }
+        ],
+        "answer": "D",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl18_q10",
+        "level": 18,
+        "topic": "Personal Finance",
+        "text": "[Level 18] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It increases it"
+            },
+            {
+                "id": "B",
+                "text": "It decreases it"
+            },
+            {
+                "id": "C",
+                "text": "It has no effect"
+            },
+            {
+                "id": "D",
+                "text": "It doubles it every year"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl19_q1",
+        "level": 19,
+        "topic": "Personal Finance",
+        "text": "[Level 19] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "B",
+                "text": "It has no effect"
+            },
+            {
+                "id": "C",
+                "text": "It decreases it"
+            },
+            {
+                "id": "D",
+                "text": "It increases it"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl19_q2",
+        "level": 19,
+        "topic": "Budgeting",
+        "text": "[Level 19] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "B",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "C",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "D",
+                "text": "Revenue of Income"
+            }
+        ],
+        "answer": "C",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl19_q3",
+        "level": 19,
+        "topic": "Personal Finance",
+        "text": "[Level 19] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "B",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "C",
+                "text": "50% needs, 30% wants, 20% savings"
+            },
+            {
+                "id": "D",
+                "text": "50% savings, 30% wants, 20% needs"
+            }
+        ],
+        "answer": "C",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl19_q4",
+        "level": 19,
+        "topic": "Budgeting",
+        "text": "[Level 19] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "B",
+                "text": "Return on Investment"
+            },
+            {
+                "id": "C",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "D",
+                "text": "Revenue of Income"
+            }
+        ],
+        "answer": "B",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    },
+    {
+        "id": "lvl19_q5",
+        "level": 19,
+        "topic": "Credit",
+        "text": "[Level 19] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "B",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "C",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are falling by 20% or more"
+            }
+        ],
+        "answer": "D",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl19_q6",
+        "level": 19,
+        "topic": "Personal Finance",
+        "text": "[Level 19] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "B",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "C",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "D",
+                "text": "Traditional Checking Account"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl19_q7",
+        "level": 19,
+        "topic": "Investing",
+        "text": "[Level 19] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It increases it"
+            },
+            {
+                "id": "B",
+                "text": "It doubles it every year"
+            },
+            {
+                "id": "C",
+                "text": "It has no effect"
+            },
+            {
+                "id": "D",
+                "text": "It decreases it"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl19_q8",
+        "level": 19,
+        "topic": "Economics",
+        "text": "[Level 19] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Payment history"
+            },
+            {
+                "id": "B",
+                "text": "Types of credit used"
+            },
+            {
+                "id": "C",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "D",
+                "text": "New credit inquiries"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl19_q9",
+        "level": 19,
+        "topic": "Personal Finance",
+        "text": "[Level 19] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "D",
+                "text": "A market that only deals in commodities"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl19_q10",
+        "level": 19,
+        "topic": "Personal Finance",
+        "text": "[Level 19] What is the main benefit of diversification in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Reducing risk by spreading investments across different assets"
+            },
+            {
+                "id": "B",
+                "text": "Avoiding all taxes"
+            },
+            {
+                "id": "C",
+                "text": "Making it easier to track your portfolio"
+            },
+            {
+                "id": "D",
+                "text": "Guaranteeing high returns"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Diversification reduces the impact of a poor-performing asset on your overall portfolio."
+    },
+    {
+        "id": "lvl20_q1",
+        "level": 20,
+        "topic": "Personal Finance",
+        "text": "[Level 20] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are rising"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl20_q2",
+        "level": 20,
+        "topic": "Personal Finance",
+        "text": "[Level 20] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "C",
+                "text": "A market focused on real estate"
+            },
+            {
+                "id": "D",
+                "text": "A market where stock prices are rising"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl20_q3",
+        "level": 20,
+        "topic": "Personal Finance",
+        "text": "[Level 20] Which of the following is considered a 'good' debt?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Payday loans"
+            },
+            {
+                "id": "B",
+                "text": "High-interest credit card debt"
+            },
+            {
+                "id": "C",
+                "text": "A mortgage for a home you can afford"
+            },
+            {
+                "id": "D",
+                "text": "An auto loan for a luxury car above your means"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A mortgage allows you to build equity in an asset that generally appreciates over time."
+    },
+    {
+        "id": "lvl20_q4",
+        "level": 20,
+        "topic": "Economics",
+        "text": "[Level 20] How does inflation affect your purchasing power?",
+        "options": [
+            {
+                "id": "A",
+                "text": "It increases it"
+            },
+            {
+                "id": "B",
+                "text": "It has no effect"
+            },
+            {
+                "id": "C",
+                "text": "It decreases it"
+            },
+            {
+                "id": "D",
+                "text": "It doubles it every year"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Inflation causes money to lose value over time, meaning you can buy less with the same amount."
+    },
+    {
+        "id": "lvl20_q5",
+        "level": 20,
+        "topic": "Economics",
+        "text": "[Level 20] What is a 'bear market'?",
+        "options": [
+            {
+                "id": "A",
+                "text": "A market where stock prices are falling by 20% or more"
+            },
+            {
+                "id": "B",
+                "text": "A market where stock prices are rising"
+            },
+            {
+                "id": "C",
+                "text": "A market that only deals in commodities"
+            },
+            {
+                "id": "D",
+                "text": "A market focused on real estate"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A bear market signifies a prolonged period of declining stock prices."
+    },
+    {
+        "id": "lvl20_q6",
+        "level": 20,
+        "topic": "Credit",
+        "text": "[Level 20] Which account typically offers the lowest interest rate?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Money Market Account"
+            },
+            {
+                "id": "B",
+                "text": "Certificate of Deposit (CD)"
+            },
+            {
+                "id": "C",
+                "text": "High-Yield Savings Account"
+            },
+            {
+                "id": "D",
+                "text": "Traditional Checking Account"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Checking accounts are designed for everyday transactions and offer little to no interest."
+    },
+    {
+        "id": "lvl20_q7",
+        "level": 20,
+        "topic": "Credit",
+        "text": "[Level 20] Which of these factors has the largest impact on your credit score?",
+        "options": [
+            {
+                "id": "A",
+                "text": "New credit inquiries"
+            },
+            {
+                "id": "B",
+                "text": "Payment history"
+            },
+            {
+                "id": "C",
+                "text": "Length of credit history"
+            },
+            {
+                "id": "D",
+                "text": "Types of credit used"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Payment history makes up about 35% of your FICO credit score, the largest single factor."
+    },
+    {
+        "id": "lvl20_q8",
+        "level": 20,
+        "topic": "Economics",
+        "text": "[Level 20] What is a credit score primarily used for?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Assessing your risk as a borrower"
+            },
+            {
+                "id": "B",
+                "text": "Applying for a passport"
+            },
+            {
+                "id": "C",
+                "text": "Calculating your taxes"
+            },
+            {
+                "id": "D",
+                "text": "Determining your salary"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lenders use credit scores to evaluate the probability that you will repay loans."
+    },
+    {
+        "id": "lvl20_q9",
+        "level": 20,
+        "topic": "Economics",
+        "text": "[Level 20] What is the 50/30/20 rule of budgeting?",
+        "options": [
+            {
+                "id": "A",
+                "text": "50% wants, 30% needs, 20% debt"
+            },
+            {
+                "id": "B",
+                "text": "50% savings, 30% wants, 20% needs"
+            },
+            {
+                "id": "C",
+                "text": "50% investing, 30% savings, 20% spending"
+            },
+            {
+                "id": "D",
+                "text": "50% needs, 30% wants, 20% savings"
+            }
+        ],
+        "answer": "D",
+        "explanation": "The popular rule suggests allocating 50% to needs, 30% to wants, and 20% to savings/debt payoff."
+    },
+    {
+        "id": "lvl20_q10",
+        "level": 20,
+        "topic": "Investing",
+        "text": "[Level 20] What does ROI stand for in investing?",
+        "options": [
+            {
+                "id": "A",
+                "text": "Risk of Interest"
+            },
+            {
+                "id": "B",
+                "text": "Rate of Inflation"
+            },
+            {
+                "id": "C",
+                "text": "Revenue of Income"
+            },
+            {
+                "id": "D",
+                "text": "Return on Investment"
+            }
+        ],
+        "answer": "D",
+        "explanation": "ROI measures the gain or loss generated on an investment relative to the amount of money invested."
+    }
+]

@@ -5,6 +5,7 @@ from flask_login import LoginManager, login_user, login_required, logout_user, c
 from werkzeug.security import generate_password_hash, check_password_hash
 from models import db, User, Goal, Expense
 import json
+import google.generativeai as genai
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'dev-secret-key'
@@ -13,6 +14,10 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'fi
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
+
+# Configure Google Generative AI
+genai.configure(api_key="AIzaSyD2MiBty310A0gc1RTG3w5ou1z2kXez1tk")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 login_manager = LoginManager()
 login_manager.login_view = 'login'
@@ -44,6 +49,32 @@ def update_streak(user):
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    data = request.json
+    user_message = data["message"]
+
+    prompt = f"""
+    You are an AI finance assistant for a platform called FinLearn.
+    Help young users understand financial concepts like:
+
+    - budgeting
+    - saving
+    - investing
+    - SIP
+    - mutual funds
+    - credit score
+
+    Explain everything in simple language.
+
+    User Question:
+    {user_message}
+    """
+
+    response = model.generate_content(prompt)
+
+    return jsonify({"reply": response.text})
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
@@ -152,22 +183,16 @@ def get_level_data(level):
     if level < 1 or level > 20:
         return jsonify({'error': 'Invalid level'}), 400
         
-    # Dynamically generate 10 questions for the requested level
-    questions = []
-    topics = ['Budgeting', 'Saving', 'Investing', 'Credit', 'Taxes']
-    for i in range(1, 11):
-        topic = topics[i % len(topics)]
-        q = {
-            'id': f'lvl{level}_q{i}',
-            'text': f'[Level {level} - {topic}] What is the best standard practice regarding {topic.lower()} when managing your monthly income?',
-            'options': [
-                {'id': 'A', 'text': f'Ignore it completely and hope for the best.'},
-                {'id': 'B', 'text': f'Spend first and think about {topic.lower()} later.'},
-                {'id': 'C', 'text': f'Plan actively and allocate at least 20% tracking towards {topic.lower()}.'},
-                {'id': 'D', 'text': f'Take extreme risks without research.'}
-            ]
-        }
-        questions.append(q)
+    try:
+        with open(os.path.join(basedir, 'questions.json'), 'r') as f:
+            all_questions = json.load(f)
+        questions = [q for q in all_questions if q['level'] == level]
+        # Remove 'answer' and 'explanation' to prevent cheating from client side
+        for q in questions:
+            q.pop('answer', None)
+            q.pop('explanation', None)
+    except Exception as e:
+        questions = []
         
     return jsonify({'level': level, 'questions': questions})
 
@@ -176,9 +201,19 @@ def get_level_data(level):
 def submit_answer():
     data = request.json
     selected_option = data.get('selected_option')
+    question_id = data.get('question_id')
     
-    # In our dynamic mock, 'C' is always correct for testing
-    is_correct = (selected_option == 'C')
+    try:
+        with open(os.path.join(basedir, 'questions.json'), 'r') as f:
+            all_questions = json.load(f)
+        question = next((q for q in all_questions if q['id'] == question_id), None)
+    except:
+        question = None
+
+    if not question:
+        return jsonify({'error': 'Question not found'}), 404
+
+    is_correct = (selected_option == question['answer'])
     points_earned = 0
     new_badges = []
     
@@ -199,8 +234,8 @@ def submit_answer():
     
     return jsonify({
         'correct': is_correct,
-        'correct_answer': 'C',
-        'explanation': 'Planning and allocating at least 20% to financial essentials is a widely recognized golden rule (50/30/20).',
+        'correct_answer': question['answer'],
+        'explanation': question['explanation'],
         'points_earned': points_earned,
         'new_total_points': current_user.points,
         'new_badges_unlocked': new_badges
